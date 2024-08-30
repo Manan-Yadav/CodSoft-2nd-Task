@@ -1,0 +1,498 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(41, 35, 35);
+    color: white;
+    letter-spacing: 1px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333131;
+    box-shadow: 0 0 7px aqua;
+    transition: all 0.2s ease;
+}
+
+.nav:hover{
+    box-shadow: 0 0 12px aqua;
+}
+.nav h1 {
+    margin: 17px;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 2px;
+    /* text-transform: uppercase; */
+    background: -webkit-linear-gradient(#f8fbfc, #05d4f8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#skill{
+    position: relative;
+    left:43%;
+    bottom:104px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 36px;
+    background: -webkit-linear-gradient(#f8fbfc, #05d4f8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+}
+.nav ul {
+    display: flex;
+    margin-top:25px;
+}
+
+.nav ul li {
+    list-style: none;
+    margin: 7px 25px;
+    font-size: larger;
+    cursor: pointer;
+    transition: all 0.2s;
+     /* font-optical-sizing: auto; */
+     font-family: "Edu VIC WA NT Beginner", cursive;
+     font-style: normal;
+     font-weight: bold;
+     letter-spacing: 1px;
+     /* text-transform: uppercase; */
+     background: -webkit-linear-gradient(180deg,#ffffff, #03d6fc);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: aqua;
+}
+.nav ul li a:hover{
+    border-bottom: 2px solid blue;
+    background: -webkit-linear-gradient(180deg, #ffffff,#1606f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav ul li a:active{
+    color: white;
+    border: none;
+}
+.mine {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 143px;
+    margin-left:77px;
+}
+
+.photo {
+    height:343px;
+    width:288px;
+    background: linear-gradient(16deg, aqua, rgb(139, 147, 148), rgb(178, 212, 214));
+    border-radius:666px;
+    transition: transform 0.7s ease; 
+    position: relative;
+    top:-21px;
+    right: 88px;
+    box-shadow:0 0 23px aqua;
+    border: 2px solid;
+}
+.name span{
+    color: aqua;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    /* text-shadow:0 0 7px rgba(4, 252, 252, 0.541); */
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#ffffff, #2bcbe7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn{
+    background: -webkit-linear-gradient(#ffffff, #2bcbe7);
+    font-size: smaller;
+    font-weight: 700;
+    border: none;
+    border: 1px solid white;
+    transition: all 0.2s ease;
+}
+.btn:active{
+    color: white;
+    transform: scale(0.9);
+}
+.read{
+    padding: 7px;
+    margin-top: 16px;
+}
+.btn:hover{
+    background: -webkit-linear-gradient(#2bcbe7, #2bcbe7);
+    box-shadow: 0 0  32px white;
+    border: 1px solid white;
+}
+.fa-brands {
+    font-size:21px;
+    margin-right:11px;
+    background-color: rgb(29, 27, 27);
+    border-radius:34px;
+    padding:5px;
+    margin-top:7px;
+    transition: all 0.2s ease;
+    border: 1px solid black;
+}
+.fa-brands:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 21px aqua;
+    background-color: aqua;
+    border: 1px solid white;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:65px 12px;
+}
+.phoneme{
+     font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#f8fbfc, #05d4f8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+}
+.contact p{
+    margin-top: 7px;
+    text-align: center;
+    color:white;
+}
+.content p{
+    margin-top:-16px;
+}
+.heading{
+    font-size: large;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+}
+.photo:hover{
+    transform: scale(1.11); 
+    box-shadow:0 0 56px aqua;
+}
+.name button{
+    margin-top:21px;
+    font-size: medium;
+    padding: 7px;
+}
+.symbols{
+    display: flex;
+    gap:97px;
+    margin-top:88px;
+}
+.fa-solid {
+    font-size: x-large;
+    width:25px;
+    height:25px;
+    padding: 32px;
+    position: relative;
+    color: rgb(255, 254, 254);
+    border-radius:88px;
+    text-align: center;
+    position: relative;
+    left:12px;
+    transition: all 0.3s ease;
+    margin-bottom: 5px;
+    box-shadow: 0 0 12px white;
+    border: 2px solid white;
+}
+.fa-solid:hover{
+    box-shadow: 0 0 23px aqua;
+    background-color: aqua;
+}
+.about{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding:88px 325px;
+    gap:12px;
+}
+.aboutme{
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#f8fbfc, #05d4f8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+}
+.skill-container {
+    display: flex;
+    position: relative;
+    right: 34px;
+    margin-top:176px;
+    flex-wrap: wrap; /* Allows wrapping to the next line */
+    justify-content: center; /* Centers the content horizontally */
+    gap: 20px; /* Adds space between the skill cards */
+  }
+  .skill-card {
+    width: calc(21.333% - 40px); /* Each card takes up one-third of the container width, accounting for the gap */
+    height:160px; /* Ensures all cards have the same height */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding: 12px;
+    margin: 12px;
+    border: 2px solid white;
+    box-shadow: 0 0 16px white;
+    text-align: center;
+  }
+
+
+.skill-card .logo {
+   
+    object-fit: contain;
+    margin: 12px;
+    border-radius:65px;
+}
+
+.skill-card:hover {
+    transform: scale(1.06);
+    box-shadow: 0 0 32px aqua;
+    background-color: aqua;
+}
+
+.skill-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 10px;
+    font-size: 16px;
+    color:black;
+    font-weight:600;
+    opacity: 0;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    transition: opacity 0.3s ease;
+}
+
+.skill-card:hover .skill-name {
+    opacity: 1;
+}
+.footer {
+    background-color: #333; /* Background color of the footer */
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-link {
+    color: white;
+    text-decoration: none;
+    font-size:20px;
+    transition: color 0.3s ease; 
+    margin-top: 8px;
+    border-bottom:1px solid #333; ;
+  }
+  
+  .footer-link:hover {
+    color:aqua;
+    border-bottom:1px solid white;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 14px;
+  }
+  
+  .icon {
+    font-size: 24px; /* Initial size of the icons */
+    color: white;
+    transition: all 0.2s ease; /* Smooth transition for icon size */
+  }
+  
+  .icon:hover {
+    transform: scale(1.06); /* Increased size of the icons on hover */
+  }
+  
+  p {
+    margin-top: -2px;
+    margin-bottom: 0px;
+    font-size:17px;
+  }
+  
+  
+.html{
+   height:100px;
+ }
+ .css{
+    height:130px;
+    width: fit-content;
+ }
+ .js{
+    height:123px;
+ }
+ .c{
+    height: 132px;
+ }
+.cpp{
+    height: 166px;
+}
+.py{
+   height: 134px;
+}
+.Fourth {
+    position: relative;
+   margin-left: 95px;
+}
+.Third{
+    position: relative;
+    margin-right:165px;
+}
+.fa-phone{
+    margin-left: 7px;
+}
+.fa-paper-plane{
+    margin-left: 7px;
+}
+#projects {
+    padding: 30px 20px;
+    background: linear-gradient(135deg, #332f2f, #2b2b2b);
+    color: #ffffff;
+    text-align: center;
+    height: 430px;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#f8fbfc, #05d4f8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.project-card {
+    position: relative;
+    background: #1e1e1e;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 266px;
+    max-width:403px;
+    transition: transform 0.34s ease, box-shadow 0.3s ease;
+}
+.project-image image{
+    height: 234px;
+}
+#projectres{
+    height: 290px;
+}
+#projectyoutube{
+    height: 290px;
+}
+.project-card:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    box-shadow: 0 0 25px aqua;
+}
+
+.project-image{
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.34s ease;
+}
+
+.project-card:hover .project-image img {
+    transform: scale(1.34);
+}
+
+.project-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+.project-info p{
+    color:white;
+}
+.project-card:hover .project-info {
+    opacity: 1;
+}
+
+.project-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:aqua;
+}
+
+.project-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #dddddd;
+    margin-bottom: 20px;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    background: -webkit-linear-gradient(#ffffff, #2bcbe7);
+    font-size: small;
+    font-weight: 700;
+    border: none;
+    color: black;
+    border: 1px solid white;
+}
+.project-link:hover{
+    background: -webkit-linear-gradient(#2bcbe7, #2bcbe7);
+    box-shadow: 0 0  32px white;
+    border: 1px solid white;
+}
